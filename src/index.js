@@ -77,27 +77,3 @@ topMenuEl.addEventListener("click", event => {
   // Toggle the "active" class on the clicked <a> element
   event.target.classList.toggle("active");
 });
-
-
-
-
-
-
-
-
-
-
-/*Katies code 
-document.addEventListener('DOMContentLoaded', () => {
-  for(i=0; i<topMenuLinks.length; i++){
-    const clicked = topMenuLinks[i];
-      // console.log(topMenuLinks[i]);
-    clicked.addEventListener('click', function(){
-      menuLinks = topMenuLinks;
-      for (i=0; i<topMenuLinks.length; i++){
-        menuLinks[i].classList.remove('active');
-      }
-      this.classList.toggle('active');
-  })
-}
-}); */
